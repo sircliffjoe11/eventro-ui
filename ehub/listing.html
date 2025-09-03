@@ -1,0 +1,261 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sound System Rental - Eventro e-Hub</title>
+    <link href="../assets/css/bootstrap.min.css" rel="stylesheet">
+    <link href="../assets/css/font-awesome.min.css" rel="stylesheet">
+    <link href="../assets/css/styles.css" rel="stylesheet">
+</head>
+<body>
+    <a href="#main-content" class="skip-link visually-hidden-focusable">Skip to main content</a>
+
+    <!-- Navigation -->
+    <nav class="navbar navbar-expand-lg navbar-light bg-white shadow-sm sticky-top">
+        <div class="container">
+            <a class="navbar-brand fw-bold text-success" href="../index.html">
+                <i class="fas fa-calendar-check me-2"></i>Eventro e-Hub
+            </a>
+            
+            <div class="d-none d-md-flex flex-grow-1 mx-4">
+                <div class="input-group">
+                    <input type="search" class="form-control" placeholder="Search event services...">
+                    <button class="btn btn-outline-success" type="button">
+                        <i class="fas fa-search"></i>
+                    </button>
+                </div>
+            </div>
+
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="listings.html">Browse Services</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="../auth/login.html">Login</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="btn btn-success btn-sm" href="../auth/register.html">Sign Up</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Breadcrumb -->
+    <nav aria-label="breadcrumb" class="bg-light">
+        <div class="container">
+            <ol class="breadcrumb py-3 mb-0">
+                <li class="breadcrumb-item"><a href="../index.html">Home</a></li>
+                <li class="breadcrumb-item"><a href="listings.html">Services</a></li>
+                <li class="breadcrumb-item active" aria-current="page">Sound System Rental</li>
+            </ol>
+        </div>
+    </nav>
+
+    <main id="main-content" class="py-4">
+        <div class="container">
+            <div class="row">
+                <!-- Main Content -->
+                <div class="col-lg-8">
+                    <!-- Gallery -->
+                    <div class="mb-4">
+                        <div class="position-relative">
+                            <img src="../assets/img/placeholders/listing-01.jpg" alt="Sound System Setup" class="img-fluid rounded-3 w-100" style="height: 400px; object-fit: cover;" id="main-image">
+                            <button class="btn btn-light position-absolute top-0 end-0 m-3" aria-label="Save listing">
+                                <i class="far fa-heart"></i>
+                            </button>
+                        </div>
+                        <div class="d-flex gap-2 mt-3 overflow-auto">
+                            <img src="../assets/img/placeholders/listing-01.jpg" alt="Gallery image 1" class="img-thumbnail gallery-thumb" style="width: 80px; height: 60px; object-fit: cover; cursor: pointer;">
+                            <img src="../assets/img/placeholders/listing-02.jpg" alt="Gallery image 2" class="img-thumbnail gallery-thumb" style="width: 80px; height: 60px; object-fit: cover; cursor: pointer;">
+                            <img src="../assets/img/placeholders/listing-03.jpg" alt="Gallery image 3" class="img-thumbnail gallery-thumb" style="width: 80px; height: 60px; object-fit: cover; cursor: pointer;">
+                        </div>
+                    </div>
+
+                    <!-- Listing Info -->
+                    <div class="mb-4">
+                        <div class="d-flex align-items-center gap-3 mb-3">
+                            <span class="badge bg-success">Sound System Rental</span>
+                            <span class="badge bg-primary">Instant Book</span>
+                        </div>
+                        <h1 class="h2 mb-3">Professional Sound System for Events</h1>
+                        <div class="d-flex align-items-center gap-4 text-muted mb-3">
+                            <div class="d-flex align-items-center">
+                                <i class="fas fa-map-marker-alt me-1"></i>
+                                <span>Lagos, Nigeria</span>
+                            </div>
+                            <div class="d-flex align-items-center">
+                                <div class="rating me-2">
+                                    <i class="fas fa-star text-warning"></i>
+                                    <i class="fas fa-star text-warning"></i>
+                                    <i class="fas fa-star text-warning"></i>
+                                    <i class="fas fa-star text-warning"></i>
+                                    <i class="fas fa-star text-warning"></i>
+                                </div>
+                                <span>4.9 (23 reviews)</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Vendor Card -->
+                    <div class="card mb-4">
+                        <div class="card-body">
+                            <div class="d-flex align-items-center">
+                                <img src="../assets/img/placeholders/avatar-01.jpg" alt="Vendor avatar" class="rounded-circle me-3" style="width: 60px; height: 60px; object-fit: cover;">
+                                <div class="flex-grow-1">
+                                    <h6 class="mb-1">SoundWave Productions</h6>
+                                    <p class="text-muted mb-1">Professional audio equipment rental</p>
+                                    <small class="text-muted">Typically responds within 2 hours</small>
+                                </div>
+                                <button class="btn btn-outline-success">
+                                    <i class="fas fa-envelope me-2"></i>Message
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Packages Section -->
+                    <div class="card mb-4">
+                        <div class="card-header">
+                            <h5 class="mb-0">Service Packages</h5>
+                        </div>
+                        <div class="card-body">
+                            <div class="row g-3" id="packages-list">
+                                <!-- Packages will be loaded here -->
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Tabs -->
+                    <ul class="nav nav-tabs" id="listingTabs" role="tablist">
+                        <li class="nav-item" role="presentation">
+                            <button class="nav-link active" id="about-tab" data-bs-toggle="tab" data-bs-target="#about" type="button" role="tab" aria-controls="about" aria-selected="true">About</button>
+                        </li>
+                        <li class="nav-item" role="presentation">
+                            <button class="nav-link" id="reviews-tab" data-bs-toggle="tab" data-bs-target="#reviews" type="button" role="tab" aria-controls="reviews" aria-selected="false">Reviews</button>
+                        </li>
+                        <li class="nav-item" role="presentation">
+                            <button class="nav-link" id="policies-tab" data-bs-toggle="tab" data-bs-target="#policies" type="button" role="tab" aria-controls="policies" aria-selected="false">Policies</button>
+                        </li>
+                    </ul>
+
+                    <div class="tab-content" id="listingTabsContent">
+                        <div class="tab-pane fade show active p-4" id="about" role="tabpanel" aria-labelledby="about-tab">
+                            <h6>About This Service</h6>
+                            <p>Professional sound system rental perfect for weddings, corporate events, parties, and celebrations. Our equipment delivers crystal-clear audio that will make your event unforgettable.</p>
+                            
+                            <h6 class="mt-4">What's Included</h6>
+                            <ul>
+                                <li>Professional mixing console</li>
+                                <li>High-quality speakers (various sizes available)</li>
+                                <li>Wireless microphones (2-4 depending on package)</li>
+                                <li>All necessary cables and stands</li>
+                                <li>Setup and breakdown service</li>
+                                <li>On-site technical support during event</li>
+                            </ul>
+
+                            <h6 class="mt-4">Perfect For</h6>
+                            <div class="d-flex flex-wrap gap-2">
+                                <span class="badge bg-light text-dark">Weddings</span>
+                                <span class="badge bg-light text-dark">Corporate Events</span>
+                                <span class="badge bg-light text-dark">Parties</span>
+                                <span class="badge bg-light text-dark">Conferences</span>
+                                <span class="badge bg-light text-dark">Outdoor Events</span>
+                            </div>
+                        </div>
+
+                        <div class="tab-pane fade p-4" id="reviews" role="tabpanel" aria-labelledby="reviews-tab">
+                            <div id="reviews-list">
+                                <!-- Reviews will be loaded here -->
+                            </div>
+                        </div>
+
+                        <div class="tab-pane fade p-4" id="policies" role="tabpanel" aria-labelledby="policies-tab">
+                            <h6>Booking Policy</h6>
+                            <ul>
+                                <li>Minimum 7-day advance booking required</li>
+                                <li>30% deposit required to confirm booking</li>
+                                <li>Balance due on day of event</li>
+                            </ul>
+
+                            <h6 class="mt-4">Cancellation Policy</h6>
+                            <ul>
+                                <li>Free cancellation up to 48 hours before event</li>
+                                <li>50% refund for cancellations within 48 hours</li>
+                                <li>No refund for same-day cancellations</li>
+                            </ul>
+                        </div>
+                    </div>
+
+                    <!-- Similar Services -->
+                    <section class="mt-5">
+                        <h4 class="mb-4">Similar Services</h4>
+                        <div class="row g-4" id="similar-services">
+                            <!-- Similar services will be loaded here -->
+                        </div>
+                    </section>
+                </div>
+
+                <!-- Booking Sidebar -->
+                <div class="col-lg-4">
+                    <div class="card sticky-top" style="top: 100px;" id="booking-sidebar">
+                        <div class="card-header">
+                            <h6 class="mb-0">Book This Service</h6>
+                        </div>
+                        <div class="card-body">
+                            <div id="selected-package" class="mb-3">
+                                <p class="text-muted mb-2">Select a package to continue</p>
+                            </div>
+
+                            <div id="booking-form" class="d-none">
+                                <div class="mb-3">
+                                    <label for="quantity" class="form-label">Quantity</label>
+                                    <div class="input-group">
+                                        <button class="btn btn-outline-secondary" type="button" id="qty-minus">
+                                            <i class="fas fa-minus"></i>
+                                        </button>
+                                        <input type="number" class="form-control text-center" id="quantity" value="1" min="1" aria-label="Quantity">
+                                        <button class="btn btn-outline-secondary" type="button" id="qty-plus">
+                                            <i class="fas fa-plus"></i>
+                                        </button>
+                                    </div>
+                                </div>
+
+                                <div class="border-top pt-3">
+                                    <div class="d-flex justify-content-between mb-2">
+                                        <span>Subtotal:</span>
+                                        <span id="subtotal" class="fw-bold">₦0</span>
+                                    </div>
+                                    <div class="d-flex justify-content-between mb-3">
+                                        <span>Deposit (30%):</span>
+                                        <span id="deposit" class="text-success fw-bold">₦0</span>
+                                    </div>
+                                    
+                                    <button class="btn btn-success w-100" id="add-to-event-btn">
+                                        <i class="fas fa-calendar-plus me-2"></i>Add to Event
+                                    </button>
+                                    
+                                    <div class="text-center mt-3">
+                                        <small class="text-muted">You won't be charged yet</small>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <script src="../assets/js/bootstrap.bundle.min.js"></script>
+    <script type="module" src="../assets/js/app.js"></script>
+    <script type="module" src="../assets/js/modules/cards.js"></script>
+    <script type="module" src="../assets/js/modules/cart.js"></script>
+</body>
+</html>

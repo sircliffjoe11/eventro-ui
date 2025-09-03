@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Browse Event Services - Eventro e-Hub</title>
+    <link href="../assets/css/bootstrap.min.css" rel="stylesheet">
+    <link href="../assets/css/font-awesome.min.css" rel="stylesheet">
+    <link href="../assets/css/styles.css" rel="stylesheet">
+</head>
+<body>
+    <a href="#main-content" class="skip-link visually-hidden-focusable">Skip to main content</a>
+
+    <!-- Navigation -->
+    <nav class="navbar navbar-expand-lg navbar-light bg-white shadow-sm sticky-top">
+        <div class="container">
+            <a class="navbar-brand fw-bold text-success" href="../index.html">
+                <i class="fas fa-calendar-check me-2"></i>Eventro e-Hub
+            </a>
+            
+            <div class="d-none d-md-flex flex-grow-1 mx-4">
+                <div class="input-group">
+                    <input type="search" class="form-control" id="search-input" placeholder="Search event services..." aria-label="Search services">
+                    <button class="btn btn-outline-success" type="button" aria-label="Search">
+                        <i class="fas fa-search"></i>
+                    </button>
+                </div>
+            </div>
+
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item">
+                        <a class="nav-link active" href="listings.html">Browse Services</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="../vendor/dashboard.html">For Vendors</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="../auth/login.html">Login</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="btn btn-success btn-sm" href="../auth/register.html">Sign Up</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Breadcrumb -->
+    <nav aria-label="breadcrumb" class="bg-light">
+        <div class="container">
+            <ol class="breadcrumb py-3 mb-0">
+                <li class="breadcrumb-item"><a href="../index.html">Home</a></li>
+                <li class="breadcrumb-item active" aria-current="page">Browse Services</li>
+            </ol>
+        </div>
+    </nav>
+
+    <main id="main-content" class="py-4">
+        <div class="container">
+            <div class="row">
+                <!-- Filters Sidebar -->
+                <div class="col-lg-3">
+                    <div class="d-lg-none mb-3">
+                        <button class="btn btn-outline-secondary w-100" type="button" data-bs-toggle="offcanvas" data-bs-target="#filtersOffcanvas" aria-controls="filtersOffcanvas">
+                            <i class="fas fa-filter me-2"></i>Filters
+                        </button>
+                    </div>
+
+                    <div class="d-none d-lg-block">
+                        <div class="card">
+                            <div class="card-header">
+                                <h6 class="mb-0">Filter Services</h6>
+                            </div>
+                            <div class="card-body" id="filters-content">
+                                <!-- Filters content will be loaded here -->
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Mobile Filters Offcanvas -->
+                    <div class="offcanvas offcanvas-start d-lg-none" tabindex="-1" id="filtersOffcanvas" aria-labelledby="filtersOffcanvasLabel">
+                        <div class="offcanvas-header">
+                            <h5 class="offcanvas-title" id="filtersOffcanvasLabel">Filter Services</h5>
+                            <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+                        </div>
+                        <div class="offcanvas-body" id="mobile-filters-content">
+                            <!-- Mobile filters content will be loaded here -->
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Listings Content -->
+                <div class="col-lg-9">
+                    <!-- Sort and Results Header -->
+                    <div class="d-flex justify-content-between align-items-center mb-4">
+                        <div>
+                            <span id="results-count" class="text-muted">Loading services...</span>
+                        </div>
+                        <div class="d-flex align-items-center gap-3">
+                            <label for="sort-select" class="form-label mb-0 text-nowrap">Sort by:</label>
+                            <select class="form-select form-select-sm" id="sort-select" style="width: auto;">
+                                <option value="newest">Newest</option>
+                                <option value="price-low">Price: Low to High</option>
+                                <option value="price-high">Price: High to Low</option>
+                                <option value="rating">Highest Rated</option>
+                            </select>
+                        </div>
+                    </div>
+
+                    <!-- Listings Grid -->
+                    <div class="row g-4" id="listings-grid">
+                        <!-- Listings will be loaded here via JavaScript -->
+                    </div>
+
+                    <!-- Pagination -->
+                    <nav aria-label="Listings pagination" class="mt-5">
+                        <ul class="pagination justify-content-center" id="pagination">
+                            <!-- Pagination will be generated here -->
+                        </ul>
+                    </nav>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <!-- Footer -->
+    <footer class="bg-dark text-light py-5 mt-5">
+        <div class="container">
+            <div class="row g-4">
+                <div class="col-lg-4">
+                    <h5 class="text-success">Eventro e-Hub</h5>
+                    <p>Nigeria's premier event services marketplace.</p>
+                </div>
+                <div class="col-lg-8">
+                    <div class="row g-4">
+                        <div class="col-md-4">
+                            <h6>Services</h6>
+                            <ul class="list-unstyled">
+                                <li><a href="listings.html" class="text-light text-decoration-none">Browse All</a></li>
+                                <li><a href="#" class="text-light text-decoration-none">Popular</a></li>
+                            </ul>
+                        </div>
+                        <div class="col-md-4">
+                            <h6>Support</h6>
+                            <ul class="list-unstyled">
+                                <li><a href="#" class="text-light text-decoration-none">Help Center</a></li>
+                                <li><a href="#" class="text-light text-decoration-none">Contact</a></li>
+                            </ul>
+                        </div>
+                        <div class="col-md-4">
+                            <h6>Legal</h6>
+                            <ul class="list-unstyled">
+                                <li><a href="../legal/terms.html" class="text-light text-decoration-none">Terms</a></li>
+                                <li><a href="../legal/privacy.html" class="text-light text-decoration-none">Privacy</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <hr class="my-4">
+            <div class="text-center">
+                <p class="mb-0">&copy; 2025 Eventro e-Hub. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="../assets/js/bootstrap.bundle.min.js"></script>
+    <script type="module" src="../assets/js/app.js"></script>
+    <script type="module" src="../assets/js/modules/filters.js"></script>
+</body>
+</html>

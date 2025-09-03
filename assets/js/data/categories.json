@@ -1,0 +1,80 @@
+[
+  {
+    "id": 1,
+    "name": "Catering",
+    "icon": "fas fa-utensils",
+    "description": "Professional food and beverage services"
+  },
+  {
+    "id": 2,
+    "name": "Sound System Rental",
+    "icon": "fas fa-volume-up",
+    "description": "Audio equipment and sound engineering"
+  },
+  {
+    "id": 3,
+    "name": "Interior Decor",
+    "icon": "fas fa-palette",
+    "description": "Event decoration and styling services"
+  },
+  {
+    "id": 4,
+    "name": "Security",
+    "icon": "fas fa-shield-alt",
+    "description": "Professional security and crowd control"
+  },
+  {
+    "id": 5,
+    "name": "MC/Compere",
+    "icon": "fas fa-microphone",
+    "description": "Master of ceremonies and entertainment"
+  },
+  {
+    "id": 6,
+    "name": "Comedian",
+    "icon": "fas fa-laugh",
+    "description": "Stand-up comedy and entertainment"
+  },
+  {
+    "id": 7,
+    "name": "Chair Rental",
+    "icon": "fas fa-chair",
+    "description": "Seating arrangements and furniture rental"
+  },
+  {
+    "id": 8,
+    "name": "Photography",
+    "icon": "fas fa-camera",
+    "description": "Professional event photography"
+  },
+  {
+    "id": 9,
+    "name": "Videography",
+    "icon": "fas fa-video",
+    "description": "Event filming and video production"
+  },
+  {
+    "id": 10,
+    "name": "Lighting",
+    "icon": "fas fa-lightbulb",
+    "description": "Stage and ambient lighting solutions"
+  },
+  {
+    "id": 11,
+    "name": "Stage",
+    "icon": "fas fa-theater-masks",
+    "description": "Stage construction and setup"
+  },
+  {
+    "id": 12,
+    "name": "Transportation",
+    "icon": "fas fa-car",
+    "description": "Guest transportation and logistics"
+  },
+  {
+    "id": 13,
+    "name": "Cleaning",
+    "icon": "fas fa-broom",
+    "description": "Pre and post-event cleaning services"
+  }
+]

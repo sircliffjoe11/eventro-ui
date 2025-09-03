@@ -1,0 +1,157 @@
+[
+  {
+    "id": 1,
+    "name": "Lagos Island",
+    "state_id": 1
+  },
+  {
+    "id": 2,
+    "name": "Victoria Island",
+    "state_id": 1
+  },
+  {
+    "id": 3,
+    "name": "Ikeja",
+    "state_id": 1
+  },
+  {
+    "id": 4,
+    "name": "Lekki",
+    "state_id": 1
+  },
+  {
+    "id": 5,
+    "name": "Surulere",
+    "state_id": 1
+  },
+  {
+    "id": 6,
+    "name": "Yaba",
+    "state_id": 1
+  },
+  {
+    "id": 7,
+    "name": "Abuja",
+    "state_id": 2
+  },
+  {
+    "id": 8,
+    "name": "Gwagwalada",
+    "state_id": 2
+  },
+  {
+    "id": 9,
+    "name": "Kuje",
+    "state_id": 2
+  },
+  {
+    "id": 10,
+    "name": "Bwari",
+    "state_id": 2
+  },
+  {
+    "id": 11,
+    "name": "Port Harcourt",
+    "state_id": 3
+  },
+  {
+    "id": 12,
+    "name": "Obio-Akpor",
+    "state_id": 3
+  },
+  {
+    "id": 13,
+    "name": "Eleme",
+    "state_id": 3
+  },
+  {
+    "id": 14,
+    "name": "Ibadan",
+    "state_id": 4
+  },
+  {
+    "id": 15,
+    "name": "Ogbomoso",
+    "state_id": 4
+  },
+  {
+    "id": 16,
+    "name": "Oyo",
+    "state_id": 4
+  },
+  {
+    "id": 17,
+    "name": "Enugu",
+    "state_id": 5
+  },
+  {
+    "id": 18,
+    "name": "Nsukka",
+    "state_id": 5
+  },
+  {
+    "id": 19,
+    "name": "Oji River",
+    "state_id": 5
+  },
+  {
+    "id": 20,
+    "name": "Kano",
+    "state_id": 6
+  },
+  {
+    "id": 21,
+    "name": "Wudil",
+    "state_id": 6
+  },
+  {
+    "id": 22,
+    "name": "Gwarzo",
+    "state_id": 6
+  },
+  {
+    "id": 23,
+    "name": "Kaduna",
+    "state_id": 7
+  },
+  {
+    "id": 24,
+    "name": "Zaria",
+    "state_id": 7
+  },
+  {
+    "id": 25,
+    "name": "Jos",
+    "state_id": 8
+  },
+  {
+    "id": 26,
+    "name": "Warri",
+    "state_id": 9
+  },
+  {
+    "id": 27,
+    "name": "Asaba",
+    "state_id": 9
+  },
+  {
+    "id": 28,
+    "name": "Awka",
+    "state_id": 10
+  },
+  {
+    "id": 29,
+    "name": "Onitsha",
+    "state_id": 10
+  },
+  {
+    "id": 30,
+    "name": "Calabar",
+    "state_id": 11
+  },
+  {
+    "id": 31,
+    "name": "Benin City",
+    "state_id": 12
+  }
+]

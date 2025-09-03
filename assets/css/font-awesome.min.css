@@ -1,0 +1,17 @@
+/* Font Awesome 6.0.0 Icons - Minimal subset for demo */
+@import url('https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css');
+
+/* Fallback for common icons if CDN fails */
+.fas::before, .fab::before, .far::before {
+  font-family: "Font Awesome 6 Free", "Font Awesome 6 Brands";
+  font-weight: 900;
+}
+
+.far::before {
+  font-weight: 400;
+}
+
+.fab::before {
+  font-family: "Font Awesome 6 Brands";
+  font-weight: 400;
+}

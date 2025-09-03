@@ -1,0 +1,279 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Order #EH-001234 - Vendor Dashboard</title>
+    <link href="../assets/css/bootstrap.min.css" rel="stylesheet">
+    <link href="../assets/css/font-awesome.min.css" rel="stylesheet">
+    <link href="../assets/css/styles.css" rel="stylesheet">
+</head>
+<body>
+    <a href="#main-content" class="skip-link visually-hidden-focusable">Skip to main content</a>
+
+    <!-- Navigation -->
+    <nav class="navbar navbar-expand-lg navbar-light bg-white shadow-sm">
+        <div class="container-fluid">
+            <a class="navbar-brand fw-bold text-success" href="../index.html">
+                <i class="fas fa-calendar-check me-2"></i>Eventro e-Hub
+            </a>
+            
+            <div class="collapse navbar-collapse">
+                <ul class="navbar-nav me-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="dashboard.html">Dashboard</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="listings.html">My Listings</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="orders.html">Orders</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <main id="main-content" class="py-4">
+        <div class="container-fluid">
+            <!-- Page Header -->
+            <div class="d-flex align-items-center mb-4">
+                <a href="orders.html" class="btn btn-outline-secondary me-3">
+                    <i class="fas fa-arrow-left"></i>
+                </a>
+                <div>
+                    <h1 class="h3 mb-1">Order #EH-001234</h1>
+                    <p class="text-muted mb-0">Sarah's Wedding Celebration</p>
+                </div>
+            </div>
+
+            <div class="row">
+                <!-- Order Details -->
+                <div class="col-lg-8">
+                    <!-- Event Information -->
+                    <div class="card mb-4">
+                        <div class="card-header">
+                            <h6 class="mb-0">Event Information</h6>
+                        </div>
+                        <div class="card-body">
+                            <div class="row">
+                                <div class="col-md-6">
+                                    <div class="mb-3">
+                                        <label class="form-label text-muted">Event Name</label>
+                                        <p class="fw-bold">Sarah's Wedding Celebration</p>
+                                    </div>
+                                    <div class="mb-3">
+                                        <label class="form-label text-muted">Event Date</label>
+                                        <p class="fw-bold">December 15, 2025</p>
+                                    </div>
+                                    <div class="mb-3">
+                                        <label class="form-label text-muted">Event Time</label>
+                                        <p class="fw-bold">10:00 AM - 6:00 PM</p>
+                                    </div>
+                                </div>
+                                <div class="col-md-6">
+                                    <div class="mb-3">
+                                        <label class="form-label text-muted">Location</label>
+                                        <p class="fw-bold">Eko Hotel & Suites, Lagos</p>
+                                    </div>
+                                    <div class="mb-3">
+                                        <label class="form-label text-muted">Expected Guests</label>
+                                        <p class="fw-bold">150 people</p>
+                                    </div>
+                                    <div class="mb-3">
+                                        <label class="form-label text-muted">Event Type</label>
+                                        <p class="fw-bold">Wedding Reception</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Order Status -->
+                    <div class="card mb-4">
+                        <div class="card-header">
+                            <h6 class="mb-0">Order Status</h6>
+                        </div>
+                        <div class="card-body">
+                            <div class="d-flex justify-content-between align-items-center mb-4">
+                                <div class="d-flex align-items-center">
+                                    <div class="rounded-circle bg-success text-white d-flex align-items-center justify-content-center me-3" style="width: 40px; height: 40px;">
+                                        <i class="fas fa-check"></i>
+                                    </div>
+                                    <div>
+                                        <div class="fw-bold">Pending</div>
+                                        <small class="text-muted">Awaiting your response</small>
+                                    </div>
+                                </div>
+                                <div class="border-top flex-grow-1 mx-3"></div>
+                                <div class="d-flex align-items-center">
+                                    <div class="rounded-circle bg-light text-muted d-flex align-items-center justify-content-center me-3" style="width: 40px; height: 40px;">
+                                        <span>2</span>
+                                    </div>
+                                    <div>
+                                        <div class="text-muted">Deposit Paid</div>
+                                        <small class="text-muted">Customer payment confirmed</small>
+                                    </div>
+                                </div>
+                                <div class="border-top flex-grow-1 mx-3"></div>
+                                <div class="d-flex align-items-center">
+                                    <div class="rounded-circle bg-light text-muted d-flex align-items-center justify-content-center me-3" style="width: 40px; height: 40px;">
+                                        <span>3</span>
+                                    </div>
+                                    <div>
+                                        <div class="text-muted">Confirmed</div>
+                                        <small class="text-muted">Service confirmed</small>
+                                    </div>
+                                </div>
+                                <div class="border-top flex-grow-1 mx-3"></div>
+                                <div class="d-flex align-items-center">
+                                    <div class="rounded-circle bg-light text-muted d-flex align-items-center justify-content-center me-3" style="width: 40px; height: 40px;">
+                                        <span>4</span>
+                                    </div>
+                                    <div>
+                                        <div class="text-muted">Completed</div>
+                                        <small class="text-muted">Service delivered</small>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="alert alert-warning">
+                                <i class="fas fa-clock me-2"></i>
+                                <strong>Action Required:</strong> Please respond to this booking request within 24 hours.
+                            </div>
+
+                            <div class="d-flex gap-3">
+                                <button class="btn btn-success">
+                                    <i class="fas fa-check me-2"></i>Accept Order
+                                </button>
+                                <button class="btn btn-outline-danger">
+                                    <i class="fas fa-times me-2"></i>Decline Order
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Service Details -->
+                    <div class="card mb-4">
+                        <div class="card-header">
+                            <h6 class="mb-0">Service Details</h6>
+                        </div>
+                        <div class="card-body">
+                            <div class="row">
+                                <div class="col-md-8">
+                                    <h6>Professional Sound System</h6>
+                                    <p class="text-muted">Basic Package (8 hours)</p>
+                                    
+                                    <h6 class="mt-4">Package Includes:</h6>
+                                    <ul class="list-unstyled">
+                                        <li><i class="fas fa-check text-success me-2"></i>Professional mixing console</li>
+                                        <li><i class="fas fa-check text-success me-2"></i>2 High-quality speakers</li>
+                                        <li><i class="fas fa-check text-success me-2"></i>2 Wireless microphones</li>
+                                        <li><i class="fas fa-check text-success me-2"></i>Setup and breakdown</li>
+                                    </ul>
+                                </div>
+                                <div class="col-md-4">
+                                    <div class="bg-light rounded p-3">
+                                        <div class="d-flex justify-content-between mb-2">
+                                            <span>Package Price:</span>
+                                            <span class="fw-bold">₦150,000</span>
+                                        </div>
+                                        <div class="d-flex justify-content-between mb-2">
+                                            <span>Quantity:</span>
+                                            <span class="fw-bold">1</span>
+                                        </div>
+                                        <hr>
+                                        <div class="d-flex justify-content-between mb-2">
+                                            <span>Subtotal:</span>
+                                            <span class="fw-bold">₦150,000</span>
+                                        </div>
+                                        <div class="d-flex justify-content-between">
+                                            <span>Deposit Paid:</span>
+                                            <span class="text-success fw-bold">₦45,000</span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Sidebar -->
+                <div class="col-lg-4">
+                    <!-- Customer Info -->
+                    <div class="card mb-4">
+                        <div class="card-header">
+                            <h6 class="mb-0">Customer Information</h6>
+                        </div>
+                        <div class="card-body">
+                            <div class="d-flex align-items-center mb-3">
+                                <img src="../assets/img/placeholders/avatar-02.jpg" alt="Customer" class="rounded-circle me-3" style="width: 50px; height: 50px; object-fit: cover;">
+                                <div>
+                                    <h6 class="mb-1">Sarah Johnson</h6>
+                                    <p class="text-muted mb-0">Event Organizer</p>
+                                </div>
+                            </div>
+                            <div class="mb-3">
+                                <small class="text-muted">Email:</small>
+                                <p class="mb-1">sarah.johnson@email.com</p>
+                            </div>
+                            <div class="mb-3">
+                                <small class="text-muted">Phone:</small>
+                                <p class="mb-1">+234 801 234 5678</p>
+                            </div>
+                            <button class="btn btn-outline-success w-100">
+                                <i class="fas fa-envelope me-2"></i>Send Message
+                            </button>
+                        </div>
+                    </div>
+
+                    <!-- Messages Panel -->
+                    <div class="card">
+                        <div class="card-header">
+                            <h6 class="mb-0">Messages</h6>
+                        </div>
+                        <div class="card-body" style="height: 300px; overflow-y: auto;" id="messages-container">
+                            <div class="mb-3">
+                                <div class="d-flex align-items-start">
+                                    <img src="../assets/img/placeholders/avatar-02.jpg" alt="Sarah" class="rounded-circle me-2" style="width: 30px; height: 30px; object-fit: cover;">
+                                    <div class="flex-grow-1">
+                                        <div class="bg-light rounded-3 p-2">
+                                            <p class="mb-1">Hi! I'm excited about booking your sound system for my wedding. Do you have experience with outdoor events?</p>
+                                        </div>
+                                        <small class="text-muted">Sarah • 2 hours ago</small>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="mb-3">
+                                <div class="d-flex align-items-start flex-row-reverse">
+                                    <img src="../assets/img/placeholders/avatar-01.jpg" alt="You" class="rounded-circle ms-2" style="width: 30px; height: 30px; object-fit: cover;">
+                                    <div class="flex-grow-1 text-end">
+                                        <div class="bg-success text-white rounded-3 p-2">
+                                            <p class="mb-1">Yes! We specialize in outdoor weddings. Our equipment is weather-resistant and we always bring backup gear.</p>
+                                        </div>
+                                        <small class="text-muted">You • 1 hour ago</small>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="card-footer">
+                            <form id="message-form">
+                                <div class="input-group">
+                                    <input type="text" class="form-control" placeholder="Type your message..." id="message-input">
+                                    <button class="btn btn-success" type="submit">
+                                        <i class="fas fa-paper-plane"></i>
+                                    </button>
+                                </div>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <script src="../assets/js/bootstrap.bundle.min.js"></script>
+    <script type="module" src="../assets/js/app.js"></script>
+    <script type="module" src="../assets/js/modules/messaging.js"></script>
+</body>
+</html>

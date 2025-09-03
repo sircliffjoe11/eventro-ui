@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Order Confirmation - Eventro e-Hub</title>
+    <link href="assets/css/bootstrap.min.css" rel="stylesheet">
+    <link href="assets/css/font-awesome.min.css" rel="stylesheet">
+    <link href="assets/css/styles.css" rel="stylesheet">
+</head>
+<body>
+    <a href="#main-content" class="skip-link visually-hidden-focusable">Skip to main content</a>
+
+    <!-- Navigation -->
+    <nav class="navbar navbar-light bg-white shadow-sm">
+        <div class="container">
+            <a class="navbar-brand fw-bold text-success" href="index.html">
+                <i class="fas fa-calendar-check me-2"></i>Eventro e-Hub
+            </a>
+        </div>
+    </nav>
+
+    <main id="main-content" class="py-5">
+        <div class="container">
+            <div class="row justify-content-center">
+                <div class="col-lg-8">
+                    <!-- Success Message -->
+                    <div class="text-center mb-5">
+                        <div class="bg-success bg-opacity-10 rounded-circle d-inline-flex align-items-center justify-content-center mb-4" style="width: 100px; height: 100px;">
+                            <i class="fas fa-check fa-3x text-success"></i>
+                        </div>
+                        <h1 class="h2 text-success mb-3">Payment Successful!</h1>
+                        <p class="lead text-muted">Your deposit has been received and your vendors have been notified.</p>
+                    </div>
+
+                    <!-- Order Details -->
+                    <div class="card mb-4">
+                        <div class="card-header">
+                            <h5 class="mb-0">Order Confirmation</h5>
+                        </div>
+                        <div class="card-body">
+                            <div class="row mb-3">
+                                <div class="col-sm-4"><strong>Order Reference:</strong></div>
+                                <div class="col-sm-8" id="order-reference">EH-2025-001234</div>
+                            </div>
+                            <div class="row mb-3">
+                                <div class="col-sm-4"><strong>Event:</strong></div>
+                                <div class="col-sm-8">Sarah's Wedding Celebration</div>
+                            </div>
+                            <div class="row mb-3">
+                                <div class="col-sm-4"><strong>Event Date:</strong></div>
+                                <div class="col-sm-8">December 15, 2025</div>
+                            </div>
+                            <div class="row mb-3">
+                                <div class="col-sm-4"><strong>Location:</strong></div>
+                                <div class="col-sm-8">Lagos, Nigeria</div>
+                            </div>
+                            <div class="row mb-3">
+                                <div class="col-sm-4"><strong>Deposit Paid:</strong></div>
+                                <div class="col-sm-8 text-success fw-bold" id="paid-amount">₦525,000</div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Booked Services -->
+                    <div class="card mb-4">
+                        <div class="card-header">
+                            <h6 class="mb-0">Booked Services</h6>
+                        </div>
+                        <div class="card-body">
+                            <div id="confirmed-services">
+                                <!-- Confirmed services will be loaded here -->
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Next Steps -->
+                    <div class="card mb-4">
+                        <div class="card-header">
+                            <h6 class="mb-0">What Happens Next?</h6>
+                        </div>
+                        <div class="card-body">
+                            <div class="row g-4">
+                                <div class="col-md-6">
+                                    <div class="d-flex">
+                                        <div class="bg-success bg-opacity-10 rounded-circle d-flex align-items-center justify-content-center me-3" style="width: 40px; height: 40px;">
+                                            <i class="fas fa-bell text-success"></i>
+                                        </div>
+                                        <div>
+                                            <h6>Vendors Notified</h6>
+                                            <small class="text-muted">Your vendors will confirm within 24 hours</small>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-md-6">
+                                    <div class="d-flex">
+                                        <div class="bg-success bg-opacity-10 rounded-circle d-flex align-items-center justify-content-center me-3" style="width: 40px; height: 40px;">
+                                            <i class="fas fa-comments text-success"></i>
+                                        </div>
+                                        <div>
+                                            <h6>Stay Connected</h6>
+                                            <small class="text-muted">Message vendors directly through our platform</small>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-md-6">
+                                    <div class="d-flex">
+                                        <div class="bg-success bg-opacity-10 rounded-circle d-flex align-items-center justify-content-center me-3" style="width: 40px; height: 40px;">
+                                            <i class="fas fa-calendar text-success"></i>
+                                        </div>
+                                        <div>
+                                            <h6>Event Reminder</h6>
+                                            <small class="text-muted">We'll send reminders leading up to your event</small>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-md-6">
+                                    <div class="d-flex">
+                                        <div class="bg-success bg-opacity-10 rounded-circle d-flex align-items-center justify-content-center me-3" style="width: 40px; height: 40px;">
+                                            <i class="fas fa-star text-success"></i>
+                                        </div>
+                                        <div>
+                                            <h6>Post-Event Review</h6>
+                                            <small class="text-muted">Share your experience to help others</small>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Action Buttons -->
+                    <div class="text-center">
+                        <a href="organizer/event-services.html" class="btn btn-success btn-lg me-3">
+                            <i class="fas fa-eye me-2"></i>View My Event
+                        </a>
+                        <a href="ehub/listings.html" class="btn btn-outline-success btn-lg">
+                            <i class="fas fa-plus me-2"></i>Add More Services
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <script src="assets/js/bootstrap.bundle.min.js"></script>
+    <script type="module" src="assets/js/app.js"></script>
+</body>
+</html>

@@ -1,0 +1,265 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Orders - Vendor Dashboard</title>
+    <link href="../assets/css/bootstrap.min.css" rel="stylesheet">
+    <link href="../assets/css/font-awesome.min.css" rel="stylesheet">
+    <link href="../assets/css/styles.css" rel="stylesheet">
+</head>
+<body>
+    <a href="#main-content" class="skip-link visually-hidden-focusable">Skip to main content</a>
+
+    <!-- Navigation -->
+    <nav class="navbar navbar-expand-lg navbar-light bg-white shadow-sm">
+        <div class="container-fluid">
+            <a class="navbar-brand fw-bold text-success" href="../index.html">
+                <i class="fas fa-calendar-check me-2"></i>Eventro e-Hub
+            </a>
+            
+            <div class="collapse navbar-collapse">
+                <ul class="navbar-nav me-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="dashboard.html">Dashboard</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="listings.html">My Listings</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active" href="orders.html">Orders</a>
+                    </li>
+                </ul>
+                <ul class="navbar-nav">
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle d-flex align-items-center" href="#" role="button" data-bs-toggle="dropdown">
+                            <img src="../assets/img/placeholders/avatar-01.jpg" alt="Profile" class="rounded-circle me-2" style="width: 30px; height: 30px; object-fit: cover;">
+                            SoundWave Productions
+                        </a>
+                        <ul class="dropdown-menu dropdown-menu-end">
+                            <li><a class="dropdown-item" href="#">Profile</a></li>
+                            <li><a class="dropdown-item" href="../auth/login.html">Logout</a></li>
+                        </ul>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <main id="main-content" class="py-4">
+        <div class="container-fluid">
+            <!-- Page Header -->
+            <div class="d-flex justify-content-between align-items-center mb-4">
+                <div>
+                    <h1 class="h3 mb-1">Orders</h1>
+                    <p class="text-muted mb-0">Manage your bookings and customer requests</p>
+                </div>
+            </div>
+
+            <!-- Filter Tabs -->
+            <ul class="nav nav-pills mb-4" id="orderTabs" role="tablist">
+                <li class="nav-item" role="presentation">
+                    <button class="nav-link active" data-bs-toggle="pill" data-bs-target="#all-orders" type="button" role="tab">
+                        All Orders <span class="badge bg-secondary ms-2">12</span>
+                    </button>
+                </li>
+                <li class="nav-item" role="presentation">
+                    <button class="nav-link" data-bs-toggle="pill" data-bs-target="#pending-orders" type="button" role="tab">
+                        Pending <span class="badge bg-warning ms-2">3</span>
+                    </button>
+                </li>
+                <li class="nav-item" role="presentation">
+                    <button class="nav-link" data-bs-toggle="pill" data-bs-target="#confirmed-orders" type="button" role="tab">
+                        Confirmed <span class="badge bg-success ms-2">6</span>
+                    </button>
+                </li>
+                <li class="nav-item" role="presentation">
+                    <button class="nav-link" data-bs-toggle="pill" data-bs-target="#completed-orders" type="button" role="tab">
+                        Completed <span class="badge bg-primary ms-2">3</span>
+                    </button>
+                </li>
+            </ul>
+
+            <!-- Orders Table -->
+            <div class="card">
+                <div class="card-body p-0">
+                    <div class="table-responsive">
+                        <table class="table table-hover mb-0">
+                            <thead class="table-light">
+                                <tr>
+                                    <th>Order ID</th>
+                                    <th>Event</th>
+                                    <th>Organizer</th>
+                                    <th>Service</th>
+                                    <th>Event Date</th>
+                                    <th>Deposit</th>
+                                    <th>Status</th>
+                                    <th>Actions</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td><a href="order.html" class="text-decoration-none">#EH-001234</a></td>
+                                    <td>
+                                        <div>
+                                            <div class="fw-bold">Sarah's Wedding</div>
+                                            <small class="text-muted">Lagos</small>
+                                        </div>
+                                    </td>
+                                    <td>
+                                        <div class="d-flex align-items-center">
+                                            <img src="../assets/img/placeholders/avatar-02.jpg" alt="Organizer" class="rounded-circle me-2" style="width: 30px; height: 30px; object-fit: cover;">
+                                            <div>
+                                                <div class="small fw-bold">Sarah Johnson</div>
+                                                <small class="text-muted">sarah@email.com</small>
+                                            </div>
+                                        </div>
+                                    </td>
+                                    <td>
+                                        <div>
+                                            <div>Professional Sound System</div>
+                                            <small class="text-muted">Basic Package (8 hrs)</small>
+                                        </div>
+                                    </td>
+                                    <td>
+                                        <div>
+                                            <div>Dec 15, 2025</div>
+                                            <small class="text-muted">10:00 AM</small>
+                                        </div>
+                                    </td>
+                                    <td class="text-success fw-bold">₦45,000</td>
+                                    <td>
+                                        <span class="badge bg-warning">Pending</span>
+                                    </td>
+                                    <td>
+                                        <div class="d-flex gap-1">
+                                            <a href="order.html" class="btn btn-sm btn-outline-primary" title="View Details">
+                                                <i class="fas fa-eye"></i>
+                                            </a>
+                                            <button class="btn btn-sm btn-success" title="Accept Order">
+                                                <i class="fas fa-check"></i>
+                                            </button>
+                                            <button class="btn btn-sm btn-outline-danger" title="Decline Order">
+                                                <i class="fas fa-times"></i>
+                                            </button>
+                                        </div>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td><a href="order.html" class="text-decoration-none">#EH-001235</a></td>
+                                    <td>
+                                        <div>
+                                            <div class="fw-bold">Corporate Launch</div>
+                                            <small class="text-muted">Abuja</small>
+                                        </div>
+                                    </td>
+                                    <td>
+                                        <div class="d-flex align-items-center">
+                                            <img src="../assets/img/placeholders/avatar-03.jpg" alt="Organizer" class="rounded-circle me-2" style="width: 30px; height: 30px; object-fit: cover;">
+                                            <div>
+                                                <div class="small fw-bold">Mike Okafor</div>
+                                                <small class="text-muted">mike@company.com</small>
+                                            </div>
+                                        </div>
+                                    </td>
+                                    <td>
+                                        <div>
+                                            <div>Sound System Rental</div>
+                                            <small class="text-muted">Full Day Package</small>
+                                        </div>
+                                    </td>
+                                    <td>
+                                        <div>
+                                            <div>Jan 20, 2025</div>
+                                            <small class="text-muted">8:00 AM</small>
+                                        </div>
+                                    </td>
+                                    <td class="text-success fw-bold">₦180,000</td>
+                                    <td>
+                                        <span class="badge bg-success">Confirmed</span>
+                                    </td>
+                                    <td>
+                                        <div class="d-flex gap-1">
+                                            <a href="order.html" class="btn btn-sm btn-outline-primary" title="View Details">
+                                                <i class="fas fa-eye"></i>
+                                            </a>
+                                            <button class="btn btn-sm btn-outline-success" title="Message Customer">
+                                                <i class="fas fa-envelope"></i>
+                                            </button>
+                                        </div>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td><a href="order.html" class="text-decoration-none">#EH-001236</a></td>
+                                    <td>
+                                        <div>
+                                            <div class="fw-bold">Birthday Party</div>
+                                            <small class="text-muted">Port Harcourt</small>
+                                        </div>
+                                    </td>
+                                    <td>
+                                        <div class="d-flex align-items-center">
+                                            <img src="../assets/img/placeholders/avatar-04.jpg" alt="Organizer" class="rounded-circle me-2" style="width: 30px; height: 30px; object-fit: cover;">
+                                            <div>
+                                                <div class="small fw-bold">Grace Adeyemi</div>
+                                                <small class="text-muted">grace@email.com</small>
+                                            </div>
+                                        </div>
+                                    </td>
+                                    <td>
+                                        <div>
+                                            <div>DJ & Sound System</div>
+                                            <small class="text-muted">Premium Package (6 hrs)</small>
+                                        </div>
+                                    </td>
+                                    <td>
+                                        <div>
+                                            <div>Nov 28, 2024</div>
+                                            <small class="text-muted">3:00 PM</small>
+                                        </div>
+                                    </td>
+                                    <td class="text-success fw-bold">₦75,000</td>
+                                    <td>
+                                        <span class="badge bg-primary">Completed</span>
+                                    </td>
+                                    <td>
+                                        <div class="d-flex gap-1">
+                                            <a href="order.html" class="btn btn-sm btn-outline-primary" title="View Details">
+                                                <i class="fas fa-eye"></i>
+                                            </a>
+                                            <button class="btn btn-sm btn-outline-secondary" title="Invoice">
+                                                <i class="fas fa-file-invoice"></i>
+                                            </button>
+                                        </div>
+                                    </td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Pagination -->
+            <nav aria-label="Orders pagination" class="mt-4">
+                <ul class="pagination justify-content-center">
+                    <li class="page-item disabled">
+                        <span class="page-link">Previous</span>
+                    </li>
+                    <li class="page-item active">
+                        <span class="page-link">1</span>
+                    </li>
+                    <li class="page-item">
+                        <a class="page-link" href="#">2</a>
+                    </li>
+                    <li class="page-item">
+                        <a class="page-link" href="#">Next</a>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+    </main>
+
+    <script src="../assets/js/bootstrap.bundle.min.js"></script>
+    <script type="module" src="../assets/js/app.js"></script>
+</body>
+</html>

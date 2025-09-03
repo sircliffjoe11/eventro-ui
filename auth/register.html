@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Register - Eventro e-Hub</title>
+    <link href="../assets/css/bootstrap.min.css" rel="stylesheet">
+    <link href="../assets/css/font-awesome.min.css" rel="stylesheet">
+    <link href="../assets/css/styles.css" rel="stylesheet">
+</head>
+<body class="bg-light">
+    <a href="#main-content" class="skip-link visually-hidden-focusable">Skip to main content</a>
+
+    <main id="main-content" class="min-vh-100 d-flex align-items-center py-5">
+        <div class="container">
+            <div class="row justify-content-center">
+                <div class="col-md-8 col-lg-6">
+                    <div class="text-center mb-4">
+                        <a href="../index.html" class="text-decoration-none">
+                            <h2 class="text-success fw-bold">
+                                <i class="fas fa-calendar-check me-2"></i>Eventro e-Hub
+                            </h2>
+                        </a>
+                        <p class="text-muted">Create your account</p>
+                    </div>
+
+                    <div class="card card-shadow">
+                        <div class="card-body p-4">
+                            <form id="register-form" novalidate>
+                                <!-- Account Type -->
+                                <div class="mb-4">
+                                    <label class="form-label">I want to:</label>
+                                    <div class="row g-3">
+                                        <div class="col-md-6">
+                                            <div class="form-check form-check-card">
+                                                <input class="form-check-input" type="radio" name="account-type" id="organizer" value="organizer" checked>
+                                                <label class="form-check-label w-100" for="organizer">
+                                                    <div class="card h-100">
+                                                        <div class="card-body text-center">
+                                                            <i class="fas fa-calendar fa-2x text-primary mb-2"></i>
+                                                            <h6>Plan Events</h6>
+                                                            <small class="text-muted">Find and book event services</small>
+                                                        </div>
+                                                    </div>
+                                                </label>
+                                            </div>
+                                        </div>
+                                        <div class="col-md-6">
+                                            <div class="form-check form-check-card">
+                                                <input class="form-check-input" type="radio" name="account-type" id="vendor" value="vendor">
+                                                <label class="form-check-label w-100" for="vendor">
+                                                    <div class="card h-100">
+                                                        <div class="card-body text-center">
+                                                            <i class="fas fa-store fa-2x text-success mb-2"></i>
+                                                            <h6>Offer Services</h6>
+                                                            <small class="text-muted">List your event services</small>
+                                                        </div>
+                                                    </div>
+                                                </label>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <!-- Personal Information -->
+                                <div class="row">
+                                    <div class="col-md-6">
+                                        <div class="mb-3">
+                                            <label for="first-name" class="form-label">First Name</label>
+                                            <input type="text" class="form-control" id="first-name" required>
+                                            <div class="invalid-feedback">Please provide your first name.</div>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-6">
+                                        <div class="mb-3">
+                                            <label for="last-name" class="form-label">Last Name</label>
+                                            <input type="text" class="form-control" id="last-name" required>
+                                            <div class="invalid-feedback">Please provide your last name.</div>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="mb-3">
+                                    <label for="email" class="form-label">Email Address</label>
+                                    <input type="email" class="form-control" id="email" required>
+                                    <div class="invalid-feedback">Please provide a valid email address.</div>
+                                </div>
+
+                                <div class="mb-3">
+                                    <label for="phone" class="form-label">Phone Number</label>
+                                    <input type="tel" class="form-control" id="phone" placeholder="+234 801 234 5678" required>
+                                    <div class="invalid-feedback">Please provide your phone number.</div>
+                                </div>
+
+                                <div class="mb-3">
+                                    <label for="password" class="form-label">Password</label>
+                                    <input type="password" class="form-control" id="password" required>
+                                    <div class="invalid-feedback">Password must be at least 8 characters.</div>
+                                    <div class="form-text">Minimum 8 characters with letters and numbers</div>
+                                </div>
+
+                                <div class="mb-3">
+                                    <label for="confirm-password" class="form-label">Confirm Password</label>
+                                    <input type="password" class="form-control" id="confirm-password" required>
+                                    <div class="invalid-feedback">Passwords do not match.</div>
+                                </div>
+
+                                <!-- Business Information (for vendors) -->
+                                <div id="vendor-fields" class="d-none">
+                                    <hr>
+                                    <h6>Business Information</h6>
+                                    
+                                    <div class="mb-3">
+                                        <label for="business-name" class="form-label">Business Name</label>
+                                        <input type="text" class="form-control" id="business-name">
+                                    </div>
+
+                                    <div class="mb-3">
+                                        <label for="business-type" class="form-label">Business Type</label>
+                                        <select class="form-select" id="business-type">
+                                            <option value="">Select business type</option>
+                                            <option value="catering">Catering</option>
+                                            <option value="decor">Decoration</option>
+                                            <option value="sound">Sound & Equipment</option>
+                                            <option value="photography">Photography</option>
+                                            <option value="entertainment">Entertainment</option>
+                                        </select>
+                                    </div>
+                                </div>
+
+                                <div class="form-check mb-3">
+                                    <input class="form-check-input" type="checkbox" id="terms-agree" required>
+                                    <label class="form-check-label" for="terms-agree">
+                                        I agree to the <a href="../legal/terms.html" class="text-success">Terms of Service</a> and <a href="../legal/privacy.html" class="text-success">Privacy Policy</a>
+                                    </label>
+                                    <div class="invalid-feedback">You must agree to the terms.</div>
+                                </div>
+
+                                <button type="submit" class="btn btn-success w-100 mb-3">
+                                    <i class="fas fa-user-plus me-2"></i>Create Account
+                                </button>
+
+                                <div class="text-center">
+                                    <span class="text-muted">Already have an account? </span>
+                                    <a href="login.html" class="text-success text-decoration-none fw-bold">Sign in</a>
+                                </div>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <script src="../assets/js/bootstrap.bundle.min.js"></script>
+    <script type="module" src="../assets/js/app.js"></script>
+</body>
+</html>

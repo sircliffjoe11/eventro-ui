@@ -1,0 +1,74 @@
+[
+  {
+    "id": 1,
+    "name": "Lagos",
+    "country_id": 1,
+    "code": "LA"
+  },
+  {
+    "id": 2,
+    "name": "FCT",
+    "country_id": 1,
+    "code": "FC"
+  },
+  {
+    "id": 3,
+    "name": "Rivers",
+    "country_id": 1,
+    "code": "RI"
+  },
+  {
+    "id": 4,
+    "name": "Oyo",
+    "country_id": 1,
+    "code": "OY"
+  },
+  {
+    "id": 5,
+    "name": "Enugu",
+    "country_id": 1,
+    "code": "EN"
+  },
+  {
+    "id": 6,
+    "name": "Kano",
+    "country_id": 1,
+    "code": "KN"
+  },
+  {
+    "id": 7,
+    "name": "Kaduna",
+    "country_id": 1,
+    "code": "KD"
+  },
+  {
+    "id": 8,
+    "name": "Plateau",
+    "country_id": 1,
+    "code": "PL"
+  },
+  {
+    "id": 9,
+    "name": "Delta",
+    "country_id": 1,
+    "code": "DE"
+  },
+  {
+    "id": 10,
+    "name": "Anambra",
+    "country_id": 1,
+    "code": "AN"
+  },
+  {
+    "id": 11,
+    "name": "Cross River",
+    "country_id": 1,
+    "code": "CR"
+  },
+  {
+    "id": 12,
+    "name": "Edo",
+    "country_id": 1,
+    "code": "ED"
+  }
+]

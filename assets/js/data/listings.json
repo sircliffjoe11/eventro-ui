@@ -1,0 +1,472 @@
+[
+  {
+    "id": 1,
+    "title": "Professional Sound System for Events",
+    "service_category_id": 2,
+    "category": "Sound System Rental",
+    "vendor_id": 1,
+    "vendor_name": "SoundWave Productions",
+    "city": "Lagos",
+    "state": "Lagos",
+    "country": "Nigeria",
+    "base_price_cents": 150000,
+    "currency": "NGN",
+    "instant_book": true,
+    "rating": 4.9,
+    "reviews_count": 23,
+    "photo": "../assets/img/placeholders/listing-01.jpg",
+    "gallery": [
+      "../assets/img/placeholders/listing-01.jpg",
+      "../assets/img/placeholders/listing-02.jpg",
+      "../assets/img/placeholders/listing-03.jpg"
+    ],
+    "packages": [
+      {
+        "id": 1,
+        "name": "Basic Package (4 hrs)",
+        "unit": "hourly",
+        "price_cents": 150000,
+        "includes": ["Professional mixing console", "2 High-quality speakers", "2 Wireless microphones", "Setup and breakdown"]
+      },
+      {
+        "id": 2,
+        "name": "Premium Package (8 hrs)",
+        "unit": "daily",
+        "price_cents": 250000,
+        "includes": ["Professional mixing console", "4 High-quality speakers", "4 Wireless microphones", "Lighting effects", "Setup and breakdown", "Technical support"]
+      },
+      {
+        "id": 3,
+        "name": "Full Event Package",
+        "unit": "event",
+        "price_cents": 600000,
+        "includes": ["Complete sound system", "Professional DJ booth", "Wireless microphones", "Stage lighting", "Backup equipment", "Full technical crew"]
+      }
+    ],
+    "description": "Professional sound system rental perfect for weddings, corporate events, parties, and celebrations.",
+    "featured": true
+  },
+  {
+    "id": 2,
+    "title": "Wedding DJ & Entertainment Services",
+    "service_category_id": 5,
+    "category": "MC/Compere",
+    "vendor_id": 2,
+    "vendor_name": "DJ Master Mix",
+    "city": "Abuja",
+    "state": "FCT",
+    "country": "Nigeria",
+    "base_price_cents": 200000,
+    "currency": "NGN",
+    "instant_book": false,
+    "rating": 4.7,
+    "reviews_count": 45,
+    "photo": "../assets/img/placeholders/listing-02.jpg",
+    "gallery": [
+      "../assets/img/placeholders/listing-02.jpg",
+      "../assets/img/placeholders/listing-04.jpg"
+    ],
+    "packages": [
+      {
+        "id": 4,
+        "name": "Basic DJ Package (4 hrs)",
+        "unit": "hourly",
+        "price_cents": 200000,
+        "includes": ["Professional DJ", "Music mixing", "Basic lighting", "Microphone for announcements"]
+      },
+      {
+        "id": 5,
+        "name": "Wedding Complete Package",
+        "unit": "event",
+        "price_cents": 800000,
+        "includes": ["Professional DJ", "MC services", "Sound system", "Dance floor lighting", "Music for ceremony and reception"]
+      }
+    ],
+    "description": "Professional DJ and MC services for weddings and special events.",
+    "featured": true
+  },
+  {
+    "id": 3,
+    "title": "Premium Catering Services",
+    "service_category_id": 1,
+    "category": "Catering",
+    "vendor_id": 3,
+    "vendor_name": "Elite Catering",
+    "city": "Port Harcourt",
+    "state": "Rivers",
+    "country": "Nigeria",
+    "base_price_cents": 2500000,
+    "currency": "NGN",
+    "instant_book": true,
+    "rating": 4.8,
+    "reviews_count": 67,
+    "photo": "../assets/img/placeholders/listing-03.jpg",
+    "gallery": [
+      "../assets/img/placeholders/listing-03.jpg",
+      "../assets/img/placeholders/listing-05.jpg"
+    ],
+    "packages": [
+      {
+        "id": 6,
+        "name": "Basic Catering (50 guests)",
+        "unit": "event",
+        "price_cents": 2500000,
+        "includes": ["3-course meal", "Soft drinks", "Service staff", "Table setup", "Basic decoration"]
+      },
+      {
+        "id": 7,
+        "name": "Premium Catering (100 guests)",
+        "unit": "event",
+        "price_cents": 4500000,
+        "includes": ["5-course meal", "Premium drinks", "Professional service staff", "Full table setup", "Elegant decoration", "Live cooking station"]
+      }
+    ],
+    "description": "Exquisite catering services for weddings, corporate events, and special celebrations.",
+    "featured": true
+  },
+  {
+    "id": 4,
+    "title": "Professional Photography Services",
+    "service_category_id": 8,
+    "category": "Photography",
+    "vendor_id": 4,
+    "vendor_name": "Capture Moments",
+    "city": "Ibadan",
+    "state": "Oyo",
+    "country": "Nigeria",
+    "base_price_cents": 500000,
+    "currency": "NGN",
+    "instant_book": false,
+    "rating": 4.6,
+    "reviews_count": 34,
+    "photo": "../assets/img/placeholders/listing-04.jpg",
+    "gallery": [
+      "../assets/img/placeholders/listing-04.jpg",
+      "../assets/img/placeholders/listing-06.jpg"
+    ],
+    "packages": [
+      {
+        "id": 8,
+        "name": "Basic Photography (4 hrs)",
+        "unit": "hourly",
+        "price_cents": 500000,
+        "includes": ["Professional photographer", "High-resolution photos", "Basic editing", "Online gallery"]
+      },
+      {
+        "id": 9,
+        "name": "Wedding Photography Package",
+        "unit": "event",
+        "price_cents": 1500000,
+        "includes": ["2 Professional photographers", "Full day coverage", "Premium editing", "Wedding album", "Online gallery", "Engagement shoot"]
+      }
+    ],
+    "description": "Capturing your special moments with professional photography services.",
+    "featured": false
+  },
+  {
+    "id": 5,
+    "title": "Luxury Interior Decoration",
+    "service_category_id": 3,
+    "category": "Interior Decor",
+    "vendor_id": 5,
+    "vendor_name": "Luxury Decor Co",
+    "city": "Enugu",
+    "state": "Enugu",
+    "country": "Nigeria",
+    "base_price_cents": 800000,
+    "currency": "NGN",
+    "instant_book": true,
+    "rating": 4.9,
+    "reviews_count": 56,
+    "photo": "../assets/img/placeholders/listing-05.jpg",
+    "gallery": [
+      "../assets/img/placeholders/listing-05.jpg",
+      "../assets/img/placeholders/listing-07.jpg"
+    ],
+    "packages": [
+      {
+        "id": 10,
+        "name": "Basic Decoration Package",
+        "unit": "event",
+        "price_cents": 800000,
+        "includes": ["Centerpieces", "Backdrop design", "Table linens", "Basic lighting", "Floral arrangements"]
+      },
+      {
+        "id": 11,
+        "name": "Luxury Decoration Package",
+        "unit": "event",
+        "price_cents": 2000000,
+        "includes": ["Custom backdrop", "Premium centerpieces", "Luxury linens", "Ambient lighting", "Fresh flower arrangements", "Ceiling draping", "Red carpet setup"]
+      }
+    ],
+    "description": "Transform your venue with our luxury interior decoration services.",
+    "featured": false
+  },
+  {
+    "id": 6,
+    "title": "Professional Security Services",
+    "service_category_id": 4,
+    "category": "Security",
+    "vendor_id": 6,
+    "vendor_name": "SecureGuard Pro",
+    "city": "Kano",
+    "state": "Kano",
+    "country": "Nigeria",
+    "base_price_cents": 100000,
+    "currency": "NGN",
+    "instant_book": false,
+    "rating": 4.5,
+    "reviews_count": 28,
+    "photo": "../assets/img/placeholders/listing-06.jpg",
+    "gallery": [
+      "../assets/img/placeholders/listing-06.jpg"
+    ],
+    "packages": [
+      {
+        "id": 12,
+        "name": "Basic Security (2 guards)",
+        "unit": "daily",
+        "price_cents": 100000,
+        "includes": ["2 Professional security guards", "8-hour coverage", "Crowd control", "Basic surveillance"]
+      },
+      {
+        "id": 13,
+        "name": "Premium Security (4 guards)",
+        "unit": "daily",
+        "price_cents": 180000,
+        "includes": ["4 Professional security guards", "12-hour coverage", "Crowd control", "VIP protection", "Mobile patrol", "Incident reporting"]
+      }
+    ],
+    "description": "Professional security services to ensure your event runs safely and smoothly.",
+    "featured": false
+  },
+  {
+    "id": 7,
+    "title": "Professional Stage Lighting",
+    "service_category_id": 10,
+    "category": "Lighting",
+    "vendor_id": 7,
+    "vendor_name": "Light Pro Services",
+    "city": "Lagos",
+    "state": "Lagos",
+    "country": "Nigeria",
+    "base_price_cents": 300000,
+    "currency": "NGN",
+    "instant_book": true,
+    "rating": 4.8,
+    "reviews_count": 41,
+    "photo": "../assets/img/placeholders/listing-07.jpg",
+    "gallery": [
+      "../assets/img/placeholders/listing-07.jpg",
+      "../assets/img/placeholders/listing-08.jpg"
+    ],
+    "packages": [
+      {
+        "id": 14,
+        "name": "Basic Lighting Package",
+        "unit": "event",
+        "price_cents": 300000,
+        "includes": ["Stage lighting", "Color effects", "Basic control", "Setup and breakdown"]
+      },
+      {
+        "id": 15,
+        "name": "Premium Lighting Package",
+        "unit": "event",
+        "price_cents": 750000,
+        "includes": ["Advanced stage lighting", "LED effects", "Smoke machines", "Professional control", "Lighting technician", "Custom programming"]
+      }
+    ],
+    "description": "Professional lighting solutions to create the perfect ambiance for your event.",
+    "featured": false
+  },
+  {
+    "id": 8,
+    "title": "Executive Transportation Services",
+    "service_category_id": 12,
+    "category": "Transportation",
+    "vendor_id": 8,
+    "vendor_name": "Elite Transport",
+    "city": "Abuja",
+    "state": "FCT",
+    "country": "Nigeria",
+    "base_price_cents": 50000,
+    "currency": "NGN",
+    "instant_book": false,
+    "rating": 4.4,
+    "reviews_count": 19,
+    "photo": "../assets/img/placeholders/listing-08.jpg",
+    "gallery": [
+      "../assets/img/placeholders/listing-08.jpg"
+    ],
+    "packages": [
+      {
+        "id": 16,
+        "name": "Airport Transfer",
+        "unit": "hourly",
+        "price_cents": 50000,
+        "includes": ["Professional driver", "Luxury vehicle", "Airport pickup/dropoff", "Waiting time included"]
+      },
+      {
+        "id": 17,
+        "name": "Full Day Service",
+        "unit": "daily",
+        "price_cents": 200000,
+        "includes": ["Professional driver", "Luxury vehicle", "8-hour service", "Fuel included", "Multiple stops"]
+      }
+    ],
+    "description": "Reliable and luxurious transportation services for your guests and VIPs.",
+    "featured": false
+  },
+  {
+    "id": 9,
+    "title": "Professional Event Cleaning",
+    "service_category_id": 13,
+    "category": "Cleaning",
+    "vendor_id": 9,
+    "vendor_name": "CleanPro Services",
+    "city": "Port Harcourt",
+    "state": "Rivers",
+    "country": "Nigeria",
+    "base_price_cents": 75000,
+    "currency": "NGN",
+    "instant_book": true,
+    "rating": 4.7,
+    "reviews_count": 33,
+    "photo": "../assets/img/placeholders/listing-09.jpg",
+    "gallery": [
+      "../assets/img/placeholders/listing-09.jpg"
+    ],
+    "packages": [
+      {
+        "id": 18,
+        "name": "Pre-Event Cleaning",
+        "unit": "event",
+        "price_cents": 75000,
+        "includes": ["Venue deep cleaning", "Floor polishing", "Window cleaning", "Restroom sanitization"]
+      },
+      {
+        "id": 19,
+        "name": "Complete Event Cleaning",
+        "unit": "event",
+        "price_cents": 150000,
+        "includes": ["Pre-event cleaning", "During-event maintenance", "Post-event cleanup", "Waste disposal", "Equipment sanitization"]
+      }
+    ],
+    "description": "Professional cleaning services to ensure your venue is spotless before, during, and after your event.",
+    "featured": false
+  },
+  {
+    "id": 10,
+    "title": "Premium Chair & Furniture Rental",
+    "service_category_id": 7,
+    "category": "Chair Rental",
+    "vendor_id": 10,
+    "vendor_name": "Elegant Rentals",
+    "city": "Lagos",
+    "state": "Lagos",
+    "country": "Nigeria",
+    "base_price_cents": 5000,
+    "currency": "NGN",
+    "instant_book": true,
+    "rating": 4.6,
+    "reviews_count": 78,
+    "photo": "../assets/img/placeholders/listing-10.jpg",
+    "gallery": [
+      "../assets/img/placeholders/listing-10.jpg"
+    ],
+    "packages": [
+      {
+        "id": 20,
+        "name": "Basic Chair Package (per chair)",
+        "unit": "event",
+        "price_cents": 5000,
+        "includes": ["Chiavari chairs", "Delivery and pickup", "Setup service"]
+      },
+      {
+        "id": 21,
+        "name": "Premium Furniture Package",
+        "unit": "event",
+        "price_cents": 15000,
+        "includes": ["Premium chairs", "Tables", "Linens", "Centerpiece stands", "Full setup and breakdown"]
+      }
+    ],
+    "description": "Elegant chair and furniture rental for sophisticated events and celebrations.",
+    "featured": false
+  },
+  {
+    "id": 11,
+    "title": "Stand-Up Comedy Entertainment",
+    "service_category_id": 6,
+    "category": "Comedian",
+    "vendor_id": 11,
+    "vendor_name": "Laugh Factory Nigeria",
+    "city": "Lagos",
+    "state": "Lagos",
+    "country": "Nigeria",
+    "base_price_cents": 300000,
+    "currency": "NGN",
+    "instant_book": false,
+    "rating": 4.9,
+    "reviews_count": 52,
+    "photo": "../assets/img/placeholders/listing-11.jpg",
+    "gallery": [
+      "../assets/img/placeholders/listing-11.jpg"
+    ],
+    "packages": [
+      {
+        "id": 22,
+        "name": "Solo Comedy Performance",
+        "unit": "event",
+        "price_cents": 300000,
+        "includes": ["30-minute comedy set", "Professional comedian", "Clean family-friendly content", "Audience interaction"]
+      },
+      {
+        "id": 23,
+        "name": "Comedy Show Package",
+        "unit": "event",
+        "price_cents": 750000,
+        "includes": ["60-minute comedy show", "2 Professional comedians", "MC services", "Audience interaction", "Custom content for your event"]
+      }
+    ],
+    "description": "Professional stand-up comedy entertainment to make your event memorable and fun.",
+    "featured": false
+  },
+  {
+    "id": 12,
+    "title": "Professional Event Videography",
+    "service_category_id": 9,
+    "category": "Videography",
+    "vendor_id": 12,
+    "vendor_name": "Motion Pictures Pro",
+    "city": "Abuja",
+    "state": "FCT",
+    "country": "Nigeria",
+    "base_price_cents": 600000,
+    "currency": "NGN",
+    "instant_book": false,
+    "rating": 4.7,
+    "reviews_count": 29,
+    "photo": "../assets/img/placeholders/listing-12.jpg",
+    "gallery": [
+      "../assets/img/placeholders/listing-12.jpg"
+    ],
+    "packages": [
+      {
+        "id": 24,
+        "name": "Basic Video Package",
+        "unit": "event",
+        "price_cents": 600000,
+        "includes": ["Single camera coverage", "Basic editing", "Highlight reel (5 minutes)", "Digital delivery"]
+      },
+      {
+        "id": 25,
+        "name": "Cinematic Wedding Package",
+        "unit": "event",
+        "price_cents": 1200000,
+        "includes": ["Multi-camera coverage", "Drone footage", "Professional editing", "Full ceremony video", "Highlight reel", "Same-day edit", "USB delivery"]
+      }
+    ],
+    "description": "Cinematic videography services to capture every precious moment of your special day.",
+    "featured": false
+  }
+]
