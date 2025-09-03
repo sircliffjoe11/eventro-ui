@@ -1,5 +1,5 @@
 import React from 'react';
-import { Calendar, Search, Star, Users, Utensils, Volume2, Palette, Shield, Mic, Camera, Lightbulb, Car, Broom } from 'lucide-react';
+import { Calendar, Search, Star, Users, Utensils, Volume2, Palette, Shield, Mic, Camera, Lightbulb, Car, Chrome as Broom } from 'lucide-react';
 
 function App() {
   const categories = [
